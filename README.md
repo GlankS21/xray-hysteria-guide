@@ -1,10 +1,12 @@
 # Xray REALITY + Hysteria2 (Salamander)
 
-[🇬🇧 English](#english) · [🇻🇳 Tiếng Việt](#tiếng-việt) · [🇷🇺 Русский](#русский)
+Self-hosted VPN guide · Hướng dẫn tự dựng VPN · Руководство по собственному VPN
 
----
+> 👇 Click a language to expand · Bấm vào ngôn ngữ để mở · Нажмите на язык, чтобы раскрыть
 
-## English
+<details>
+<summary><b>🇬🇧 English</b></summary>
+
 
 A practical overview of running your own censorship-resistant VPN on a Linux VPS with two protocols:
 
@@ -156,11 +158,11 @@ ssh -N -L 9443:127.0.0.1:443 root@<IP>
 
 MIT
 
-[↑ Top](#xray-reality--hysteria2-salamander)
+</details>
 
----
+<details>
+<summary><b>🇻🇳 Tiếng Việt</b></summary>
 
-## Tiếng Việt
 
 Tổng quan thực hành về cách tự dựng VPN chống kiểm duyệt trên VPS Linux với hai giao thức:
 
@@ -312,11 +314,11 @@ ssh -N -L 9443:127.0.0.1:443 root@<IP>
 
 MIT
 
-[↑ Lên đầu](#xray-reality--hysteria2-salamander)
+</details>
 
----
+<details>
+<summary><b>🇷🇺 Русский</b></summary>
 
-## Русский
 
 Практический обзор того, как поднять собственный устойчивый к блокировкам VPN на Linux VPS с двумя протоколами:
 
@@ -468,4 +470,5 @@ ssh -N -L 9443:127.0.0.1:443 root@<IP>
 
 MIT
 
-[↑ Наверх](#xray-reality--hysteria2-salamander)
+</details>
+
