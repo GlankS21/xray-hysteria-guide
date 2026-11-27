@@ -34,7 +34,7 @@ git clone https://github.com/<you>/<this-repo>.git && cd <this-repo>/scripts
 
 ### 2. Xray VLESS + REALITY
 
-### 2.1 Choose an SNI (camouflage domain)
+#### 2.1 Choose an SNI (camouflage domain)
 REALITY borrows the TLS handshake of a real website. Best choice: a small site **hosted in the same subnet** as your VPS, supporting TLS 1.3 + HTTP/2. Find one with RealiTLScanner:
 
 ```bash
@@ -47,7 +47,7 @@ cut -d, -f3 found.csv | sort -u
 
 Avoid: big brands (google, yandex, sberbank… on a hosting IP is suspicious), names that look like other VPNs/proxies, self-signed certificates.
 
-### 2.2 Install
+#### 2.2 Install
 
 ```bash
 bash install-xray-reality.sh <SNI_domain>        # optional 2nd arg: port (default 443)
@@ -190,7 +190,7 @@ git clone https://github.com/<you>/<this-repo>.git && cd <this-repo>/scripts
 
 ### 2. Xray VLESS + REALITY
 
-### 2.1 Chọn SNI (domain ngụy trang)
+#### 2.1 Chọn SNI (domain ngụy trang)
 REALITY mượn màn bắt tay TLS của một trang web thật. Tốt nhất là một trang nhỏ **nằm cùng dải IP** với VPS, có TLS 1.3 + HTTP/2. Tìm bằng RealiTLScanner:
 
 ```bash
@@ -203,7 +203,7 @@ cut -d, -f3 found.csv | sort -u
 
 Nên tránh: thương hiệu lớn (google, yandex, sberbank… mà nằm trên IP nhà cung cấp VPS là đáng ngờ), tên trông giống VPN/proxy của người khác, chứng chỉ tự ký.
 
-### 2.2 Cài đặt
+#### 2.2 Cài đặt
 
 ```bash
 bash install-xray-reality.sh <domain_SNI>        # tham số thứ 2 (tùy chọn): port, mặc định 443
@@ -346,7 +346,7 @@ git clone https://github.com/<you>/<this-repo>.git && cd <this-repo>/scripts
 
 ### 2. Xray VLESS + REALITY
 
-### 2.1 Выбор SNI (домена маскировки)
+#### 2.1 Выбор SNI (домена маскировки)
 REALITY заимствует TLS-рукопожатие настоящего сайта. Лучший вариант — небольшой сайт **в той же подсети**, что и VPS, с поддержкой TLS 1.3 + HTTP/2. Найти его можно через RealiTLScanner:
 
 ```bash
@@ -359,7 +359,7 @@ cut -d, -f3 found.csv | sort -u
 
 Избегайте: крупных брендов (google, yandex, sberbank… на IP хостинга выглядят подозрительно), имён, похожих на чужие VPN/прокси, самоподписанных сертификатов.
 
-### 2.2 Установка
+#### 2.2 Установка
 
 ```bash
 bash install-xray-reality.sh <SNI_домен>         # 2-й аргумент (необязательно): порт, по умолчанию 443
